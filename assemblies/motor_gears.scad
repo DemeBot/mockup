@@ -34,7 +34,7 @@ module gear_assembly(){
     //echo("root diameter",rootDR(14,pitch));
     //echo("outer diameter",outDO(14,pitch));
 
-    translate([10+38,0,thickness])
+    translate([38,0,thickness])
     rotate([0,180,19])
     difference(){
         union(){
